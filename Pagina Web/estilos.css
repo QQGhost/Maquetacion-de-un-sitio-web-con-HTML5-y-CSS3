@@ -1,7 +1,14 @@
-.titulo{
+html{
+    background-color: #304c64;
+}
+h1{
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: red;
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 1px #e2480c,
+    2px 2px 1px #e2480c;
 }
 .categorias{
     justify-content: center;
@@ -10,15 +17,42 @@
     gap: 50px;
     list-style: none;
 }
-.cuerpo{
-
-}
-
 h3{
-    color: seagreen;
+    font-family: "Arial";
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 1px #e2480c,
+    2px 2px 1px #e2480c;
 }
 p{
-    text-align: justify;
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    background-color: #26788e;
+    text-align: center;
 }
+article{
+text-align: center;
+}
+h4{
+    font-family: "Arial";
+    font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+   text-shadow:
+    1px 1px 1px #631B08,
+    2px 2px 1px #631B08;
+}
+.cuerpo{
+    display: block;
+    justify-content: center;
+    height: 100vh; 
+}
+
+
+
+
+/*Fuentes
+https://developer.mozilla.org/es/docs/Learn_web_development/Core/Text_styling/Fundamentals
+*/ 
